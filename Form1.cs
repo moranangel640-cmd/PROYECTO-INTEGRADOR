@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace PROYECTO_INTEGRADOR
 {
@@ -24,6 +25,11 @@ namespace PROYECTO_INTEGRADOR
 
         private void botoninicio_Click(object sender, EventArgs e)
         {
+            if (string.IsNullOrEmpty(textBox11.Text.Trim()))
+            {
+                MessageBox.Show("No haz ingresado tu nombre ingresalo.");
+                return;
+            }
             var dato = textBox11.Text;
             Form2 chepe = new Form2();
             chepe.SetDato(dato);
