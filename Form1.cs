@@ -24,7 +24,9 @@ namespace PROYECTO_INTEGRADOR
 
         private void botoninicio_Click(object sender, EventArgs e)
         {
+            var dato = textBox11.Text;
             Form2 chepe = new Form2();
+            chepe.SetDato(dato);
             chepe.Show();
             this.Hide();
         }
