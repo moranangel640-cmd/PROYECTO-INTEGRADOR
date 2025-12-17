@@ -18,7 +18,10 @@ namespace PROYECTO_INTEGRADOR
         {
             InitializeComponent();
         }
-
+        public void SetDato(string dato)
+        {
+            usuario.Text = dato;
+        }
         private void button1_Click(object sender, EventArgs e)
         {
             Form1 chepe2 = new Form1();
