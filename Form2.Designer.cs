@@ -31,7 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
             this.Regreso = new System.Windows.Forms.Button();
             this.Bienve = new System.Windows.Forms.Label();
-            this.usuario = new System.Windows.Forms.Label();
+            this.usuarioo = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // Regreso
@@ -43,9 +43,10 @@
             this.Regreso.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.Regreso.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.Regreso.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Regreso.Location = new System.Drawing.Point(12, 520);
+            this.Regreso.Location = new System.Drawing.Point(9, 422);
+            this.Regreso.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Regreso.Name = "Regreso";
-            this.Regreso.Size = new System.Drawing.Size(96, 71);
+            this.Regreso.Size = new System.Drawing.Size(72, 58);
             this.Regreso.TabIndex = 0;
             this.Regreso.UseVisualStyleBackColor = false;
             this.Regreso.Click += new System.EventHandler(this.button1_Click);
@@ -54,31 +55,34 @@
             // 
             this.Bienve.AutoSize = true;
             this.Bienve.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Bienve.Location = new System.Drawing.Point(12, 9);
+            this.Bienve.Location = new System.Drawing.Point(9, 7);
+            this.Bienve.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Bienve.Name = "Bienve";
-            this.Bienve.Size = new System.Drawing.Size(151, 29);
+            this.Bienve.Size = new System.Drawing.Size(121, 24);
             this.Bienve.TabIndex = 1;
             this.Bienve.Text = "Bienvenido:\r\n";
             // 
-            // usuario
+            // usuarioo
             // 
-            this.usuario.AutoSize = true;
-            this.usuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.usuario.Location = new System.Drawing.Point(157, 9);
-            this.usuario.Name = "usuario";
-            this.usuario.Size = new System.Drawing.Size(20, 29);
-            this.usuario.TabIndex = 2;
-            this.usuario.Text = ".";
-            this.usuario.Click += new System.EventHandler(this.usuario_Click);
+            this.usuarioo.AutoSize = true;
+            this.usuarioo.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.usuarioo.Location = new System.Drawing.Point(118, 7);
+            this.usuarioo.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.usuarioo.Name = "usuarioo";
+            this.usuarioo.Size = new System.Drawing.Size(16, 24);
+            this.usuarioo.TabIndex = 2;
+            this.usuarioo.Text = ".";
+            this.usuarioo.Click += new System.EventHandler(this.usuario_Click);
             // 
             // Form2
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1032, 603);
-            this.Controls.Add(this.usuario);
+            this.ClientSize = new System.Drawing.Size(774, 490);
+            this.Controls.Add(this.usuarioo);
             this.Controls.Add(this.Bienve);
             this.Controls.Add(this.Regreso);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form2";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form2";
@@ -92,6 +96,6 @@
 
         private System.Windows.Forms.Button Regreso;
         private System.Windows.Forms.Label Bienve;
-        private System.Windows.Forms.Label usuario;
+        private System.Windows.Forms.Label usuarioo;
     }
 }

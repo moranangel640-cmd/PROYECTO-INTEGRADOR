@@ -20,7 +20,7 @@ namespace PROYECTO_INTEGRADOR
         }
         public void SetDato(string dato)
         {
-            usuario.Text = dato;
+            usuarioo.Text = dato;
         }
         private void button1_Click(object sender, EventArgs e)
         {

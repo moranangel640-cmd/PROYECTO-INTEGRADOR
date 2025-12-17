@@ -2195,7 +2195,7 @@ BASILEÑO</value>
   <data name="cerrar.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAfQAAAH0CAYAAADL1t+KAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wQAADsEBuJFr7QAA/7JJREFUeF7snQecVcX5/kPvIIoFe+8t9hi7id0YUzT2xDQTWWAp23vvvS9bWFh6
+        wAAADsABataJCQAA/7JJREFUeF7snQecVcX5/kPvIIoFe+8t9hi7id0YUzT2xDQTWWAp23vvvS9bWFh6
         7x0BpQgIiFhA995z+zaaPcnvv//nmXPmcnY59CIsM5/P81Fx2d17zsz7needd2Z+pppqqrX/1tLS0lYd
         DiD/16immmqqqaaaaqdYM4PakBXMKf/XqKaaaqqppppqp1gzg9qQFcwp/9eopppqqqmmWrtuPl/LAaU5
         /9fhS9uPHb746ocOn+34vuOn27/ruA3a+vm3nTZ98k2n9Vu+6bTmo687fbBhb+eVH+7t/N7aPZ2Xrt7d
@@ -4319,7 +4319,7 @@ BASILEÑO</value>
   <data name="menu.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAfQAAAH0CAYAAADL1t+KAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wQAADsEBuJFr7QAA/7JJREFUeF7snQd4HcXZ/T/3bgyY3nsNoSSEJJRAQhJCPkIgJISEkAohuEiyJFu9
+        wAAADsABataJCQAA/7JJREFUeF7snQd4HcXZ/T/3bgyY3nsNoSSEJJRAQhJCPkIgJISEkAohuEiyJFu9
         9967ZMmWi1xxwd3YBmMwYMA21aC7u7equWMIyffX/5zZnfVKrAuukr3zPOcx2Cr37p15f3PeeWfmf5zm
         NKfprbOz06o+Ul980dl3167O/jt3dg7csaNzMDR0+/bOEdAZvsB/Ryvuf1/wqfLlpZ8077vqo0/3Xf/B
         ts9v2fzh3u+++d7u+157a+dD617f8fjq9dufXvnK9ueWr+0IfmlVR+SCFe2J85a2Zc1+qa2oaVFb9YwF
@@ -7900,28 +7900,28 @@ BASILEÑO</value>
   <data name="&gt;&gt;pictureBox3.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="textBox1.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="textBox11.Location" type="System.Drawing.Point, System.Drawing">
     <value>225, 369</value>
   </data>
-  <data name="textBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="textBox11.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
   </data>
-  <data name="textBox1.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="textBox11.Size" type="System.Drawing.Size, System.Drawing">
     <value>339, 20</value>
   </data>
-  <data name="textBox1.TabIndex" type="System.Int32, mscorlib">
+  <data name="textBox11.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
   </data>
-  <data name="&gt;&gt;textBox1.Name" xml:space="preserve">
-    <value>textBox1</value>
+  <data name="&gt;&gt;textBox11.Name" xml:space="preserve">
+    <value>textBox11</value>
   </data>
-  <data name="&gt;&gt;textBox1.Type" xml:space="preserve">
+  <data name="&gt;&gt;textBox11.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;textBox1.Parent" xml:space="preserve">
+  <data name="&gt;&gt;textBox11.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;textBox1.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;textBox11.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
