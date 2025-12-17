@@ -35,5 +35,10 @@ namespace PROYECTO_INTEGRADOR
         {
 
         }
+
+        private void Bienve_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

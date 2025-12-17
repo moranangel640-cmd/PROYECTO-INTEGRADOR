@@ -59,6 +59,7 @@
             this.Bienve.Size = new System.Drawing.Size(151, 29);
             this.Bienve.TabIndex = 1;
             this.Bienve.Text = "Bienvenido:\r\n";
+            this.Bienve.Click += new System.EventHandler(this.Bienve_Click);
             // 
             // usuario
             // 
