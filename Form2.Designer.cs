@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
             this.Regreso = new System.Windows.Forms.Button();
             this.Bienve = new System.Windows.Forms.Label();
             this.usuarioo = new System.Windows.Forms.Label();
@@ -35,11 +36,11 @@
             this.Interfaz2 = new System.Windows.Forms.Button();
             this.Interfaz3 = new System.Windows.Forms.Button();
             this.Interfaz4 = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.button5 = new System.Windows.Forms.Button();
+            this.Imagenform2 = new System.Windows.Forms.PictureBox();
+            this.Fraseform2 = new System.Windows.Forms.Label();
+            this.Configuracion = new System.Windows.Forms.Button();
             this.Extra = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Imagenform2)).BeginInit();
             this.SuspendLayout();
             // 
             // Regreso
@@ -94,7 +95,7 @@
             this.Interfaz2.Name = "Interfaz2";
             this.Interfaz2.Size = new System.Drawing.Size(227, 59);
             this.Interfaz2.TabIndex = 4;
-            this.Interfaz2.Text = "button2";
+            this.Interfaz2.Text = "Interfaz2";
             this.Interfaz2.UseVisualStyleBackColor = true;
             // 
             // Interfaz3
@@ -103,7 +104,7 @@
             this.Interfaz3.Name = "Interfaz3";
             this.Interfaz3.Size = new System.Drawing.Size(229, 69);
             this.Interfaz3.TabIndex = 5;
-            this.Interfaz3.Text = "button3";
+            this.Interfaz3.Text = "Interfaz3";
             this.Interfaz3.UseVisualStyleBackColor = true;
             this.Interfaz3.Click += new System.EventHandler(this.Interfaz3_Click);
             // 
@@ -113,34 +114,38 @@
             this.Interfaz4.Name = "Interfaz4";
             this.Interfaz4.Size = new System.Drawing.Size(265, 68);
             this.Interfaz4.TabIndex = 6;
-            this.Interfaz4.Text = "button4";
+            this.Interfaz4.Text = "Interfaz4";
             this.Interfaz4.UseVisualStyleBackColor = true;
             // 
-            // pictureBox1
+            // Imagenform2
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(624, 136);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(218, 115);
-            this.pictureBox1.TabIndex = 7;
-            this.pictureBox1.TabStop = false;
+            this.Imagenform2.BackColor = System.Drawing.Color.Transparent;
+            this.Imagenform2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Imagenform2.BackgroundImage")));
+            this.Imagenform2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Imagenform2.Location = new System.Drawing.Point(586, 93);
+            this.Imagenform2.Name = "Imagenform2";
+            this.Imagenform2.Size = new System.Drawing.Size(218, 148);
+            this.Imagenform2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.Imagenform2.TabIndex = 7;
+            this.Imagenform2.TabStop = false;
             // 
-            // label1
+            // Fraseform2
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(380, 560);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(44, 16);
-            this.label1.TabIndex = 8;
-            this.label1.Text = "label1";
+            this.Fraseform2.AutoSize = true;
+            this.Fraseform2.Location = new System.Drawing.Point(380, 560);
+            this.Fraseform2.Name = "Fraseform2";
+            this.Fraseform2.Size = new System.Drawing.Size(113, 16);
+            this.Fraseform2.TabIndex = 8;
+            this.Fraseform2.Text = "Frase inspiradora";
             // 
-            // button5
+            // Configuracion
             // 
-            this.button5.Location = new System.Drawing.Point(12, 539);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(60, 52);
-            this.button5.TabIndex = 9;
-            this.button5.Text = "button5";
-            this.button5.UseVisualStyleBackColor = true;
+            this.Configuracion.Location = new System.Drawing.Point(12, 539);
+            this.Configuracion.Name = "Configuracion";
+            this.Configuracion.Size = new System.Drawing.Size(60, 52);
+            this.Configuracion.TabIndex = 9;
+            this.Configuracion.Text = "button5";
+            this.Configuracion.UseVisualStyleBackColor = true;
             // 
             // Extra
             // 
@@ -155,11 +160,13 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1032, 603);
             this.Controls.Add(this.Extra);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.Configuracion);
+            this.Controls.Add(this.Fraseform2);
+            this.Controls.Add(this.Imagenform2);
             this.Controls.Add(this.Interfaz4);
             this.Controls.Add(this.Interfaz3);
             this.Controls.Add(this.Interfaz2);
@@ -167,12 +174,13 @@
             this.Controls.Add(this.usuarioo);
             this.Controls.Add(this.Bienve);
             this.Controls.Add(this.Regreso);
+            this.DoubleBuffered = true;
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Form2";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form2";
             this.Load += new System.EventHandler(this.Form2_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Imagenform2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -187,9 +195,9 @@
         private System.Windows.Forms.Button Interfaz2;
         private System.Windows.Forms.Button Interfaz3;
         private System.Windows.Forms.Button Interfaz4;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.PictureBox Imagenform2;
+        private System.Windows.Forms.Label Fraseform2;
+        private System.Windows.Forms.Button Configuracion;
         private System.Windows.Forms.Button Extra;
     }
 }

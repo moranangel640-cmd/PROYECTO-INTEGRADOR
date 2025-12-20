@@ -34,11 +34,9 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.cerrar = new System.Windows.Forms.Button();
-            this.textBox11 = new System.Windows.Forms.TextBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.textointro = new System.Windows.Forms.Label();
-            this.textointro2 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.textBox11 = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -56,6 +54,7 @@
             // 
             resources.ApplyResources(this.label1, "label1");
             this.label1.Name = "label1";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -65,6 +64,7 @@
             // label3
             // 
             resources.ApplyResources(this.label3, "label3");
+            this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Name = "label3";
             this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
@@ -75,21 +75,10 @@
             resources.ApplyResources(this.panel1, "panel1");
             this.panel1.Name = "panel1";
             // 
-            // cerrar
+            // textointro
             // 
-            this.cerrar.BackColor = System.Drawing.Color.Transparent;
-            resources.ApplyResources(this.cerrar, "cerrar");
-            this.cerrar.FlatAppearance.BorderSize = 0;
-            this.cerrar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.cerrar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.cerrar.Name = "cerrar";
-            this.cerrar.UseVisualStyleBackColor = false;
-            // 
-            // textBox11
-            // 
-            resources.ApplyResources(this.textBox11, "textBox11");
-            this.textBox11.Name = "textBox11";
-            this.textBox11.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            resources.ApplyResources(this.textointro, "textointro");
+            this.textointro.Name = "textointro";
             // 
             // pictureBox1
             // 
@@ -97,28 +86,23 @@
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.TabStop = false;
             // 
-            // textointro
+            // textBox11
             // 
-            resources.ApplyResources(this.textointro, "textointro");
-            this.textointro.Name = "textointro";
-            // 
-            // textointro2
-            // 
-            resources.ApplyResources(this.textointro2, "textointro2");
-            this.textointro2.Name = "textointro2";
+            resources.ApplyResources(this.textBox11, "textBox11");
+            this.textBox11.Name = "textBox11";
+            this.textBox11.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // Form1
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.textointro2);
-            this.Controls.Add(this.textBox11);
-            this.Controls.Add(this.cerrar);
-            this.Controls.Add(this.panel1);
             this.Controls.Add(this.label3);
+            this.Controls.Add(this.textBox11);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.botoninicio);
+            this.DoubleBuffered = true;
             this.Name = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.panel1.ResumeLayout(false);
@@ -136,11 +120,9 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Button cerrar;
         private System.Windows.Forms.TextBox textBox11;
         private System.Windows.Forms.Label textointro;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label textointro2;
     }
 }
 
