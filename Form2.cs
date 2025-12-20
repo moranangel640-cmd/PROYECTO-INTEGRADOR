@@ -38,5 +38,10 @@ namespace PROYECTO_INTEGRADOR
         {
 
         }
+
+        private void Interfaz3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
