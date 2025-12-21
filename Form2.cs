@@ -43,5 +43,12 @@ namespace PROYECTO_INTEGRADOR
         {
 
         }
+
+        private void Interfaz1_Click(object sender, EventArgs e)
+        {
+            Form3 chepe2 = new Form3();
+            chepe2.Show();
+            this.Hide();
+        }
     }
 }

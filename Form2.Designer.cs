@@ -88,6 +88,7 @@
             this.Interfaz1.TabIndex = 3;
             this.Interfaz1.Text = "Interfaz1";
             this.Interfaz1.UseVisualStyleBackColor = true;
+            this.Interfaz1.Click += new System.EventHandler(this.Interfaz1_Click);
             // 
             // Interfaz2
             // 
