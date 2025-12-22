@@ -39,6 +39,7 @@
             this.Fraseform2 = new System.Windows.Forms.Label();
             this.Configuracion = new System.Windows.Forms.Button();
             this.Extra = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.Imagenform2)).BeginInit();
             this.SuspendLayout();
             // 
@@ -145,6 +146,16 @@
             this.Extra.Text = "Nose que ira aqui";
             this.Extra.UseVisualStyleBackColor = true;
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(858, 557);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(136, 32);
+            this.button1.TabIndex = 11;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -152,6 +163,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1032, 603);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.Extra);
             this.Controls.Add(this.Configuracion);
             this.Controls.Add(this.Fraseform2);
@@ -186,5 +198,6 @@
         private System.Windows.Forms.Label Fraseform2;
         private System.Windows.Forms.Button Configuracion;
         private System.Windows.Forms.Button Extra;
+        private System.Windows.Forms.Button button1;
     }
 }

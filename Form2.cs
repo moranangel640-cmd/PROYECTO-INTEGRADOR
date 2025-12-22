@@ -54,5 +54,12 @@ namespace PROYECTO_INTEGRADOR
                 Bienve.Text = "Bienvenido: " + Nombre1.nombreusuario;
             }
         }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            Form4 chepe5 = new Form4();
+            chepe5.Show();
+            this.Hide();
+        }
     }
 }
