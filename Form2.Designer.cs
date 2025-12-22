@@ -31,7 +31,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
             this.Regreso = new System.Windows.Forms.Button();
             this.Bienve = new System.Windows.Forms.Label();
-            this.usuarioo = new System.Windows.Forms.Label();
             this.Interfaz1 = new System.Windows.Forms.Button();
             this.Interfaz2 = new System.Windows.Forms.Button();
             this.Interfaz3 = new System.Windows.Forms.Button();
@@ -68,17 +67,6 @@
             this.Bienve.Size = new System.Drawing.Size(151, 29);
             this.Bienve.TabIndex = 1;
             this.Bienve.Text = "Bienvenido:\r\n";
-            // 
-            // usuarioo
-            // 
-            this.usuarioo.AutoSize = true;
-            this.usuarioo.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.usuarioo.Location = new System.Drawing.Point(157, 9);
-            this.usuarioo.Name = "usuarioo";
-            this.usuarioo.Size = new System.Drawing.Size(20, 29);
-            this.usuarioo.TabIndex = 2;
-            this.usuarioo.Text = ".";
-            this.usuarioo.Click += new System.EventHandler(this.usuario_Click);
             // 
             // Interfaz1
             // 
@@ -172,7 +160,6 @@
             this.Controls.Add(this.Interfaz3);
             this.Controls.Add(this.Interfaz2);
             this.Controls.Add(this.Interfaz1);
-            this.Controls.Add(this.usuarioo);
             this.Controls.Add(this.Bienve);
             this.Controls.Add(this.Regreso);
             this.DoubleBuffered = true;
@@ -191,7 +178,6 @@
 
         private System.Windows.Forms.Button Regreso;
         private System.Windows.Forms.Label Bienve;
-        private System.Windows.Forms.Label usuarioo;
         private System.Windows.Forms.Button Interfaz1;
         private System.Windows.Forms.Button Interfaz2;
         private System.Windows.Forms.Button Interfaz3;

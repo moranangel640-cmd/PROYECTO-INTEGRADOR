@@ -18,20 +18,15 @@ namespace PROYECTO_INTEGRADOR
         {
             InitializeComponent();
         }
-        public void SetDato(string dato)
-        {
-            usuarioo.Text = dato;
-        }
+
         private void button1_Click(object sender, EventArgs e)
         {
-            Form1 chepe2 = new Form1();
-            chepe2.Show();
-            this.Close();
+
         }
 
         private void Form2_Load(object sender, EventArgs e)
         {
-            
+            Bienve.Text = "Bienvenido: " + Nombre1.nombreusuario;  //No tocar si lo tocas te macheteo
         }
 
         private void usuario_Click(object sender, EventArgs e)
@@ -46,9 +41,18 @@ namespace PROYECTO_INTEGRADOR
 
         private void Interfaz1_Click(object sender, EventArgs e)
         {
-            Form3 chepe2 = new Form3();
-            chepe2.Show();
-            this.Hide();
+            Form3 chepe2 = new Form3();  //no tocar te macheteo
+            chepe2.Show();  //no tocar te macheteo
+            this.Hide();    //no tocar te macheteo
+        }
+
+        private void Form2_VisibleChanged(object sender, EventArgs e) //esto si vale un poco verga pero no lo toquen
+        {
+            if (this.Visible)
+            {
+                // Actualizar por si cambió (aunque sea estático)
+                Bienve.Text = "Bienvenido: " + Nombre1.nombreusuario;
+            }
         }
     }
 }

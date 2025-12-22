@@ -30,9 +30,8 @@ namespace PROYECTO_INTEGRADOR
                 MessageBox.Show("No haz ingresado tu nombre ingresalo.");
                 return;
             }
-            var dato = textBox11.Text;
+            Nombre1.nombreusuario = textBox11.Text;
             Form2 chepe = new Form2();
-            chepe.SetDato(dato);
             chepe.Show();
             this.Hide();
         }
