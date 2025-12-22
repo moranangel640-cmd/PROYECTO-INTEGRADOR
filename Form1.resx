@@ -217,16 +217,16 @@
     <value>Microsoft Sans Serif, 28.2pt, style=Bold</value>
   </data>
   <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>278, 40</value>
+    <value>235, 42</value>
   </data>
   <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>536, 54</value>
+    <value>606, 54</value>
   </data>
   <data name="label3.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
-    <value>App informativa de ETS
+    <value>App para el control de ETS
 </value>
   </data>
   <data name="&gt;&gt;label3.Name" xml:space="preserve">
@@ -346,7 +346,7 @@
   <data name="$this.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAB4AAAAQ4CAYAAADo08FDAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wgAADsIBFShKgAAASCVJREFUeF7s3Xm07mdd3/3+mRCSYAihIKAJUhCE+pFBWjVUCsUKimBRQXgUfSyi
+        wQAADsEBuJFr7QAASCVJREFUeF7s3Xm07mdd3/3+mRCSYAihIKAJUhCE+pFBWjVUCsUKimBRQXgUfSyi
         tWJA6SoO9HlQQC2tAo6tONBHhQeoQkUMTksxDAJCrcEQJ5AEyhBiBv78dh1zlOTLdc7Zwz38htdrrfc/
         kJyz73vvff32uj4r5/yDfwAAAAAAMHOVnFfJcyv5m0pKkiRprfWfkwAAAAAAZquSCyr5oUpu7pehkiRJ
         a6j/fAQAAAAAMHuVXFTJS/uFqCRJ0tLrPxcBAAAAACxGJfeo5GX9YlSSJGmp9Z+HAAAAAAAWp5LPquSX
