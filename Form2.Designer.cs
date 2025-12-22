@@ -82,7 +82,7 @@
             // 
             this.Interfaz2.Location = new System.Drawing.Point(217, 166);
             this.Interfaz2.Name = "Interfaz2";
-            this.Interfaz2.Size = new System.Drawing.Size(227, 59);
+            this.Interfaz2.Size = new System.Drawing.Size(228, 60);
             this.Interfaz2.TabIndex = 4;
             this.Interfaz2.Text = "Interfaz2";
             this.Interfaz2.UseVisualStyleBackColor = true;
@@ -91,7 +91,7 @@
             // 
             this.Interfaz3.Location = new System.Drawing.Point(342, 248);
             this.Interfaz3.Name = "Interfaz3";
-            this.Interfaz3.Size = new System.Drawing.Size(229, 69);
+            this.Interfaz3.Size = new System.Drawing.Size(228, 60);
             this.Interfaz3.TabIndex = 5;
             this.Interfaz3.Text = "Interfaz3";
             this.Interfaz3.UseVisualStyleBackColor = true;
@@ -101,7 +101,7 @@
             // 
             this.Interfaz4.Location = new System.Drawing.Point(462, 345);
             this.Interfaz4.Name = "Interfaz4";
-            this.Interfaz4.Size = new System.Drawing.Size(265, 68);
+            this.Interfaz4.Size = new System.Drawing.Size(228, 60);
             this.Interfaz4.TabIndex = 6;
             this.Interfaz4.Text = "Interfaz4";
             this.Interfaz4.UseVisualStyleBackColor = true;
@@ -121,7 +121,7 @@
             // Fraseform2
             // 
             this.Fraseform2.AutoSize = true;
-            this.Fraseform2.Location = new System.Drawing.Point(380, 560);
+            this.Fraseform2.Location = new System.Drawing.Point(339, 557);
             this.Fraseform2.Name = "Fraseform2";
             this.Fraseform2.Size = new System.Drawing.Size(113, 16);
             this.Fraseform2.TabIndex = 8;
@@ -140,7 +140,7 @@
             // 
             this.Extra.Location = new System.Drawing.Point(595, 454);
             this.Extra.Name = "Extra";
-            this.Extra.Size = new System.Drawing.Size(265, 65);
+            this.Extra.Size = new System.Drawing.Size(228, 60);
             this.Extra.TabIndex = 10;
             this.Extra.Text = "Nose que ira aqui";
             this.Extra.UseVisualStyleBackColor = true;
