@@ -57,11 +57,12 @@
             // 
             this.Titulo1.AutoSize = true;
             this.Titulo1.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Titulo1.Location = new System.Drawing.Point(388, 48);
+            this.Titulo1.Location = new System.Drawing.Point(372, 48);
             this.Titulo1.Name = "Titulo1";
             this.Titulo1.Size = new System.Drawing.Size(236, 31);
             this.Titulo1.TabIndex = 1;
             this.Titulo1.Text = "ENFERMEDADES ETS";
+            this.Titulo1.Click += new System.EventHandler(this.Titulo1_Click);
             // 
             // enfermedadespanel
             // 

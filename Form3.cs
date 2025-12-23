@@ -156,5 +156,10 @@ namespace PROYECTO_INTEGRADOR
                     break;
             }
         }
+
+        private void Titulo1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
