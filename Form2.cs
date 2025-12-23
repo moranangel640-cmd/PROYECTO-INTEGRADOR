@@ -68,5 +68,12 @@ namespace PROYECTO_INTEGRADOR
             formtratam.Show();
             this.Hide();
         }
+
+        private void Interfaz4_Click(object sender, EventArgs e)
+        {
+            Form7 chepe7 = new Form7();
+            chepe7.Show();
+            this.Hide();
+        }
     }
 }
