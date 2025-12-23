@@ -109,7 +109,7 @@
             this.Interfaz4.Name = "Interfaz4";
             this.Interfaz4.Size = new System.Drawing.Size(228, 60);
             this.Interfaz4.TabIndex = 6;
-            this.Interfaz4.Text = "Mapa de Calor";
+            this.Interfaz4.Text = "Mapa Estadístico";
             this.Interfaz4.UseVisualStyleBackColor = true;
             this.Interfaz4.Click += new System.EventHandler(this.Interfaz4_Click);
             // 
