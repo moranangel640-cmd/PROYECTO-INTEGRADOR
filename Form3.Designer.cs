@@ -31,11 +31,11 @@
             this.back = new System.Windows.Forms.Button();
             this.Titulo1 = new System.Windows.Forms.Label();
             this.enfermedadespanel = new System.Windows.Forms.Panel();
-            this.infopanel = new System.Windows.Forms.Panel();
-            this.Comboboxenfer = new System.Windows.Forms.ComboBox();
-            this.Titulo2 = new System.Windows.Forms.Label();
-            this.Informacionrichtext = new System.Windows.Forms.RichTextBox();
             this.Titulo3 = new System.Windows.Forms.Label();
+            this.Comboboxenfer = new System.Windows.Forms.ComboBox();
+            this.infopanel = new System.Windows.Forms.Panel();
+            this.Informacionrichtext = new System.Windows.Forms.RichTextBox();
+            this.Titulo2 = new System.Windows.Forms.Label();
             this.sabiasq = new System.Windows.Forms.Label();
             this.infosabias = new System.Windows.Forms.Label();
             this.enfermedadespanel.SuspendLayout();
@@ -71,14 +71,15 @@
             this.enfermedadespanel.Size = new System.Drawing.Size(320, 382);
             this.enfermedadespanel.TabIndex = 2;
             // 
-            // infopanel
+            // Titulo3
             // 
-            this.infopanel.Controls.Add(this.Informacionrichtext);
-            this.infopanel.Controls.Add(this.Titulo2);
-            this.infopanel.Location = new System.Drawing.Point(327, 222);
-            this.infopanel.Name = "infopanel";
-            this.infopanel.Size = new System.Drawing.Size(448, 382);
-            this.infopanel.TabIndex = 3;
+            this.Titulo3.AutoSize = true;
+            this.Titulo3.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Titulo3.Location = new System.Drawing.Point(5, 25);
+            this.Titulo3.Name = "Titulo3";
+            this.Titulo3.Size = new System.Drawing.Size(308, 31);
+            this.Titulo3.TabIndex = 1;
+            this.Titulo3.Text = "Seleccione una enfermedad";
             // 
             // Comboboxenfer
             // 
@@ -96,6 +97,25 @@
             this.Comboboxenfer.TabIndex = 0;
             this.Comboboxenfer.SelectedIndexChanged += new System.EventHandler(this.Comboboxenfer_SelectedIndexChanged);
             // 
+            // infopanel
+            // 
+            this.infopanel.Controls.Add(this.Informacionrichtext);
+            this.infopanel.Controls.Add(this.Titulo2);
+            this.infopanel.Location = new System.Drawing.Point(327, 222);
+            this.infopanel.Name = "infopanel";
+            this.infopanel.Size = new System.Drawing.Size(470, 382);
+            this.infopanel.TabIndex = 3;
+            // 
+            // Informacionrichtext
+            // 
+            this.Informacionrichtext.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Informacionrichtext.Location = new System.Drawing.Point(3, 59);
+            this.Informacionrichtext.Name = "Informacionrichtext";
+            this.Informacionrichtext.ReadOnly = true;
+            this.Informacionrichtext.Size = new System.Drawing.Size(452, 322);
+            this.Informacionrichtext.TabIndex = 1;
+            this.Informacionrichtext.Text = "";
+            // 
             // Titulo2
             // 
             this.Titulo2.AutoSize = true;
@@ -106,26 +126,6 @@
             this.Titulo2.TabIndex = 0;
             this.Titulo2.Text = "Informacion";
             this.Titulo2.Click += new System.EventHandler(this.Titulo2_Click);
-            // 
-            // Informacionrichtext
-            // 
-            this.Informacionrichtext.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Informacionrichtext.Location = new System.Drawing.Point(3, 59);
-            this.Informacionrichtext.Name = "Informacionrichtext";
-            this.Informacionrichtext.ReadOnly = true;
-            this.Informacionrichtext.Size = new System.Drawing.Size(432, 322);
-            this.Informacionrichtext.TabIndex = 1;
-            this.Informacionrichtext.Text = "";
-            // 
-            // Titulo3
-            // 
-            this.Titulo3.AutoSize = true;
-            this.Titulo3.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Titulo3.Location = new System.Drawing.Point(5, 25);
-            this.Titulo3.Name = "Titulo3";
-            this.Titulo3.Size = new System.Drawing.Size(308, 31);
-            this.Titulo3.TabIndex = 1;
-            this.Titulo3.Text = "Seleccione una enfermedad";
             // 
             // sabiasq
             // 
