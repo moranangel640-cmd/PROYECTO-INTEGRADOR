@@ -21,5 +21,20 @@ namespace PROYECTO_INTEGRADOR
         {
 
         }
+
+        private void Lenacapavir_Click(object sender, EventArgs e)
+        {
+            panellena.Visible = true;
+        }
+
+        private void Cabotegravir_Click(object sender, EventArgs e)
+        {
+            panelcabo.Visible = true;
+        }
+
+        private void Fostemsavir_Click(object sender, EventArgs e)
+        {
+            panelfostem.Visible = true;
+        }
     }
 }

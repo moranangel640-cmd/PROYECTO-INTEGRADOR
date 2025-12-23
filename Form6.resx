@@ -117,12 +117,12 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="richTextBox2.Text" xml:space="preserve">
-    <value>La combinación de cabotegravir, un inhibidor de la integrasa, y nilpivirina, un inhibidor no nucleósido de la transcriptasa inversa, fue el primer régimen inyectable completo de acción prolongada aprobado.</value>
-  </data>
   <data name="richTextBox1.Text" xml:space="preserve">
     <value>Posee un novedoso mecanismo que actúa sobre múltiples etapas del ciclo de vida viral.
 Al unirse a una cavidad conservada en la interfaz de los monómeros de la proteína capside, interrumpiendo los delicados procesos de ensamblaje del núcleo viral y desensamblaje</value>
+  </data>
+  <data name="richTextBox2.Text" xml:space="preserve">
+    <value>La combinación de cabotegravir, un inhibidor de la integrasa, y nilpivirina, un inhibidor no nucleósido de la transcriptasa inversa, fue el primer régimen inyectable completo de acción prolongada aprobado.</value>
   </data>
   <data name="richTextBox3.Text" xml:space="preserve">
     <value>Es un inhibidor de la adhesión de primera clase y un profármaco de temsavir, que se une directamente a la proteína de superficie gp120 del VIH - 1, fijándola en una conformación cerrada y evitando la adhesión viral al receptor CD4 de la célula huésped.</value>

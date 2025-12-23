@@ -74,6 +74,7 @@
             this.Lenacapavir.TabIndex = 2;
             this.Lenacapavir.Text = "Lenacapavir";
             this.Lenacapavir.UseVisualStyleBackColor = true;
+            this.Lenacapavir.Click += new System.EventHandler(this.Lenacapavir_Click);
             // 
             // Cabotegravir
             // 
@@ -83,6 +84,7 @@
             this.Cabotegravir.TabIndex = 3;
             this.Cabotegravir.Text = "Cabotegravir/Rilpivirina";
             this.Cabotegravir.UseVisualStyleBackColor = true;
+            this.Cabotegravir.Click += new System.EventHandler(this.Cabotegravir_Click);
             // 
             // Fostemsavir
             // 
@@ -92,6 +94,7 @@
             this.Fostemsavir.TabIndex = 4;
             this.Fostemsavir.Text = "Fostemsavir";
             this.Fostemsavir.UseVisualStyleBackColor = true;
+            this.Fostemsavir.Click += new System.EventHandler(this.Fostemsavir_Click);
             // 
             // panellena
             // 
