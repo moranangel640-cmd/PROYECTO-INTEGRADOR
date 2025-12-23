@@ -118,11 +118,10 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="richTextBox1.Text" xml:space="preserve">
-    <value>La mayoría de los fármacos anti-HSV son análogos de nucleósidos que se dirigen directamente al virus
-ADN polimerasa cuando está en su forma activa. La ADN polimerasa codificada viralmente pro-
-vee de una función esencial, e interferir con esta enzima da como resultado la inhibición de la replicación del ADN del virus, evitando así la producción de viriones infecciosos. Aunque esto
-El mecanismo es efectivo, un problema potencial es que estos agentes también podrían dirigirse al ADN del huésped
-La polimerasa y conduce a una mayor toxicidad. Todos los análogos de nucleósidos requieren trifosforilación
-antes de unirse a e inhibir la ADN polimerasa viral en su sitio activo</value>
+    <value>La primera vacuna contra el VPH dirigida a los 2 VPH oncogénicos Subtipos 16 y 18 se introdujo en 2004, principalmente para prevenir el cancer cervical. En 2006, una nueva vacuna dirigida a los subtipos de VPH
+6, 11, 16 y 18 fue liberada, previniendo no solo el cáncer cervical sino también el cáncer de cuello uterino, enfermedades benignas, como las verrugas genitales en el cuello uterino, la vulva o
+vagina, y ano y papilomatosis respiratoria recurrente (RRP). Más recientemente, estas vacunas han sido seguidas por
+una vacuna contra el VPH de 9 valentes de subtipos 16 y 18.
+</value>
   </data>
 </root>
