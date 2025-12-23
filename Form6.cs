@@ -16,5 +16,10 @@ namespace PROYECTO_INTEGRADOR
         {
             InitializeComponent();
         }
+
+        private void info1desc_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
