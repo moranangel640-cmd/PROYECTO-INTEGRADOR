@@ -50,5 +50,10 @@ namespace PROYECTO_INTEGRADOR
         {
 
         }
+
+        private void textointro_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

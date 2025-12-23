@@ -34,11 +34,12 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.textointro = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.textBox11 = new System.Windows.Forms.TextBox();
+            this.picbox_lazo1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picbox_lazo1)).BeginInit();
             this.SuspendLayout();
             // 
             // botoninicio
@@ -70,15 +71,10 @@
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.textointro);
+            this.panel1.Controls.Add(this.picbox_lazo1);
             this.panel1.Controls.Add(this.pictureBox1);
             resources.ApplyResources(this.panel1, "panel1");
             this.panel1.Name = "panel1";
-            // 
-            // textointro
-            // 
-            resources.ApplyResources(this.textointro, "textointro");
-            this.textointro.Name = "textointro";
             // 
             // pictureBox1
             // 
@@ -91,6 +87,12 @@
             resources.ApplyResources(this.textBox11, "textBox11");
             this.textBox11.Name = "textBox11";
             this.textBox11.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
+            // picbox_lazo1
+            // 
+            resources.ApplyResources(this.picbox_lazo1, "picbox_lazo1");
+            this.picbox_lazo1.Name = "picbox_lazo1";
+            this.picbox_lazo1.TabStop = false;
             // 
             // Form1
             // 
@@ -106,8 +108,8 @@
             this.Name = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picbox_lazo1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -121,8 +123,8 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.TextBox textBox11;
-        private System.Windows.Forms.Label textointro;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox picbox_lazo1;
     }
 }
 
