@@ -61,5 +61,12 @@ namespace PROYECTO_INTEGRADOR
             chepe5.Show();
             this.Hide();
         }
+
+        private void Interfaz2_Click(object sender, EventArgs e)
+        {
+            Formtratam formtratam = new Formtratam();
+            formtratam.Show();
+            this.Hide();
+        }
     }
 }

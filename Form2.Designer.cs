@@ -51,10 +51,10 @@
             this.Regreso.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.Regreso.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.Regreso.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Regreso.Location = new System.Drawing.Point(12, 519);
-            this.Regreso.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Regreso.Location = new System.Drawing.Point(9, 422);
+            this.Regreso.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Regreso.Name = "Regreso";
-            this.Regreso.Size = new System.Drawing.Size(96, 71);
+            this.Regreso.Size = new System.Drawing.Size(72, 58);
             this.Regreso.TabIndex = 0;
             this.Regreso.UseVisualStyleBackColor = false;
             this.Regreso.Click += new System.EventHandler(this.button1_Click);
@@ -63,17 +63,19 @@
             // 
             this.Bienve.AutoSize = true;
             this.Bienve.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Bienve.Location = new System.Drawing.Point(12, 9);
+            this.Bienve.Location = new System.Drawing.Point(9, 7);
+            this.Bienve.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Bienve.Name = "Bienve";
-            this.Bienve.Size = new System.Drawing.Size(151, 29);
+            this.Bienve.Size = new System.Drawing.Size(121, 24);
             this.Bienve.TabIndex = 1;
             this.Bienve.Text = "Bienvenido:\r\n";
             // 
             // Interfaz1
             // 
-            this.Interfaz1.Location = new System.Drawing.Point(83, 72);
+            this.Interfaz1.Location = new System.Drawing.Point(62, 58);
+            this.Interfaz1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Interfaz1.Name = "Interfaz1";
-            this.Interfaz1.Size = new System.Drawing.Size(228, 60);
+            this.Interfaz1.Size = new System.Drawing.Size(171, 49);
             this.Interfaz1.TabIndex = 3;
             this.Interfaz1.Text = "Interfaz1";
             this.Interfaz1.UseVisualStyleBackColor = true;
@@ -81,18 +83,21 @@
             // 
             // Interfaz2
             // 
-            this.Interfaz2.Location = new System.Drawing.Point(217, 166);
+            this.Interfaz2.Location = new System.Drawing.Point(163, 135);
+            this.Interfaz2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Interfaz2.Name = "Interfaz2";
-            this.Interfaz2.Size = new System.Drawing.Size(228, 60);
+            this.Interfaz2.Size = new System.Drawing.Size(171, 49);
             this.Interfaz2.TabIndex = 4;
-            this.Interfaz2.Text = "Interfaz2";
+            this.Interfaz2.Text = "Tratamientos";
             this.Interfaz2.UseVisualStyleBackColor = true;
+            this.Interfaz2.Click += new System.EventHandler(this.Interfaz2_Click);
             // 
             // Interfaz3
             // 
-            this.Interfaz3.Location = new System.Drawing.Point(342, 248);
+            this.Interfaz3.Location = new System.Drawing.Point(256, 202);
+            this.Interfaz3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Interfaz3.Name = "Interfaz3";
-            this.Interfaz3.Size = new System.Drawing.Size(228, 60);
+            this.Interfaz3.Size = new System.Drawing.Size(171, 49);
             this.Interfaz3.TabIndex = 5;
             this.Interfaz3.Text = "Interfaz3";
             this.Interfaz3.UseVisualStyleBackColor = true;
@@ -100,9 +105,10 @@
             // 
             // Interfaz4
             // 
-            this.Interfaz4.Location = new System.Drawing.Point(462, 345);
+            this.Interfaz4.Location = new System.Drawing.Point(346, 280);
+            this.Interfaz4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Interfaz4.Name = "Interfaz4";
-            this.Interfaz4.Size = new System.Drawing.Size(228, 60);
+            this.Interfaz4.Size = new System.Drawing.Size(171, 49);
             this.Interfaz4.TabIndex = 6;
             this.Interfaz4.Text = "Interfaz4";
             this.Interfaz4.UseVisualStyleBackColor = true;
@@ -112,9 +118,10 @@
             this.Imagenform2.BackColor = System.Drawing.Color.Transparent;
             this.Imagenform2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Imagenform2.BackgroundImage")));
             this.Imagenform2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.Imagenform2.Location = new System.Drawing.Point(586, 93);
+            this.Imagenform2.Location = new System.Drawing.Point(440, 76);
+            this.Imagenform2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Imagenform2.Name = "Imagenform2";
-            this.Imagenform2.Size = new System.Drawing.Size(218, 148);
+            this.Imagenform2.Size = new System.Drawing.Size(164, 120);
             this.Imagenform2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.Imagenform2.TabIndex = 7;
             this.Imagenform2.TabStop = false;
@@ -122,35 +129,39 @@
             // Fraseform2
             // 
             this.Fraseform2.AutoSize = true;
-            this.Fraseform2.Location = new System.Drawing.Point(339, 557);
+            this.Fraseform2.Location = new System.Drawing.Point(254, 453);
+            this.Fraseform2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Fraseform2.Name = "Fraseform2";
-            this.Fraseform2.Size = new System.Drawing.Size(113, 16);
+            this.Fraseform2.Size = new System.Drawing.Size(87, 13);
             this.Fraseform2.TabIndex = 8;
             this.Fraseform2.Text = "Frase inspiradora";
             // 
             // Configuracion
             // 
-            this.Configuracion.Location = new System.Drawing.Point(12, 539);
+            this.Configuracion.Location = new System.Drawing.Point(9, 438);
+            this.Configuracion.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Configuracion.Name = "Configuracion";
-            this.Configuracion.Size = new System.Drawing.Size(60, 52);
+            this.Configuracion.Size = new System.Drawing.Size(45, 42);
             this.Configuracion.TabIndex = 9;
             this.Configuracion.Text = "button5";
             this.Configuracion.UseVisualStyleBackColor = true;
             // 
             // Extra
             // 
-            this.Extra.Location = new System.Drawing.Point(595, 454);
+            this.Extra.Location = new System.Drawing.Point(446, 369);
+            this.Extra.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Extra.Name = "Extra";
-            this.Extra.Size = new System.Drawing.Size(228, 60);
+            this.Extra.Size = new System.Drawing.Size(171, 49);
             this.Extra.TabIndex = 10;
             this.Extra.Text = "Nose que ira aqui";
             this.Extra.UseVisualStyleBackColor = true;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(858, 557);
+            this.button1.Location = new System.Drawing.Point(644, 453);
+            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(136, 32);
+            this.button1.Size = new System.Drawing.Size(102, 26);
             this.button1.TabIndex = 11;
             this.button1.Text = "button1";
             this.button1.UseVisualStyleBackColor = true;
@@ -158,11 +169,11 @@
             // 
             // Form2
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1032, 603);
+            this.ClientSize = new System.Drawing.Size(774, 490);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.Extra);
             this.Controls.Add(this.Configuracion);
@@ -175,7 +186,7 @@
             this.Controls.Add(this.Bienve);
             this.Controls.Add(this.Regreso);
             this.DoubleBuffered = true;
-            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form2";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form2";
