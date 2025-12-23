@@ -1,6 +1,6 @@
 ﻿namespace PROYECTO_INTEGRADOR
 {
-    partial class Form10
+    partial class info4
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form10));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(info4));
             this.label1 = new System.Windows.Forms.Label();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.SuspendLayout();
@@ -51,15 +51,15 @@
             this.richTextBox1.TabIndex = 2;
             this.richTextBox1.Text = resources.GetString("richTextBox1.Text");
             // 
-            // Form10
+            // info4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(527, 250);
             this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.label1);
-            this.Name = "Form10";
-            this.Text = "Form10";
+            this.Name = "info4";
+            this.Text = "HERPES";
             this.ResumeLayout(false);
             this.PerformLayout();
 

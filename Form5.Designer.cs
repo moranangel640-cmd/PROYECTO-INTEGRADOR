@@ -56,19 +56,17 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(231, 39);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(173, 32);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(452, 31);
+            this.label1.Size = new System.Drawing.Size(357, 25);
             this.label1.TabIndex = 0;
             this.label1.Text = "TRATAMIENTOS PARA LAS ETS";
             // 
             // Regresointer2
             // 
-            this.Regresointer2.Location = new System.Drawing.Point(827, 377);
-            this.Regresointer2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Regresointer2.Location = new System.Drawing.Point(620, 306);
             this.Regresointer2.Name = "Regresointer2";
-            this.Regresointer2.Size = new System.Drawing.Size(121, 39);
+            this.Regresointer2.Size = new System.Drawing.Size(91, 32);
             this.Regresointer2.TabIndex = 1;
             this.Regresointer2.Text = "Regresar";
             this.Regresointer2.UseVisualStyleBackColor = true;
@@ -78,10 +76,9 @@
             // 
             this.labelvih.AutoSize = true;
             this.labelvih.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelvih.Location = new System.Drawing.Point(91, 113);
-            this.labelvih.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.labelvih.Location = new System.Drawing.Point(68, 92);
             this.labelvih.Name = "labelvih";
-            this.labelvih.Size = new System.Drawing.Size(40, 20);
+            this.labelvih.Size = new System.Drawing.Size(32, 16);
             this.labelvih.TabIndex = 2;
             this.labelvih.Text = "VIH";
             // 
@@ -89,10 +86,9 @@
             // 
             this.labelgonorrea.AutoSize = true;
             this.labelgonorrea.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelgonorrea.Location = new System.Drawing.Point(233, 113);
-            this.labelgonorrea.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.labelgonorrea.Location = new System.Drawing.Point(175, 92);
             this.labelgonorrea.Name = "labelgonorrea";
-            this.labelgonorrea.Size = new System.Drawing.Size(114, 20);
+            this.labelgonorrea.Size = new System.Drawing.Size(93, 16);
             this.labelgonorrea.TabIndex = 3;
             this.labelgonorrea.Text = "GONORREA";
             // 
@@ -100,10 +96,9 @@
             // 
             this.labelsifilis.AutoSize = true;
             this.labelsifilis.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelsifilis.Location = new System.Drawing.Point(449, 113);
-            this.labelsifilis.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.labelsifilis.Location = new System.Drawing.Point(337, 92);
             this.labelsifilis.Name = "labelsifilis";
-            this.labelsifilis.Size = new System.Drawing.Size(70, 20);
+            this.labelsifilis.Size = new System.Drawing.Size(56, 16);
             this.labelsifilis.TabIndex = 4;
             this.labelsifilis.Text = "SIFILIS";
             // 
@@ -111,10 +106,9 @@
             // 
             this.labelherpes.AutoSize = true;
             this.labelherpes.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelherpes.Location = new System.Drawing.Point(633, 113);
-            this.labelherpes.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.labelherpes.Location = new System.Drawing.Point(475, 92);
             this.labelherpes.Name = "labelherpes";
-            this.labelherpes.Size = new System.Drawing.Size(84, 20);
+            this.labelherpes.Size = new System.Drawing.Size(69, 16);
             this.labelherpes.TabIndex = 5;
             this.labelherpes.Text = "HERPES";
             // 
@@ -122,64 +116,57 @@
             // 
             this.labelvph.AutoSize = true;
             this.labelvph.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelvph.Location = new System.Drawing.Point(823, 113);
-            this.labelvph.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.labelvph.Location = new System.Drawing.Point(617, 92);
             this.labelvph.Name = "labelvph";
-            this.labelvph.Size = new System.Drawing.Size(47, 20);
+            this.labelvph.Size = new System.Drawing.Size(38, 16);
             this.labelvph.TabIndex = 6;
             this.labelvph.Text = "VPH";
             // 
             // pictureBoxvih
             // 
-            this.pictureBoxvih.Location = new System.Drawing.Point(44, 148);
-            this.pictureBoxvih.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBoxvih.Location = new System.Drawing.Point(33, 120);
             this.pictureBoxvih.Name = "pictureBoxvih";
-            this.pictureBoxvih.Size = new System.Drawing.Size(136, 126);
+            this.pictureBoxvih.Size = new System.Drawing.Size(102, 102);
             this.pictureBoxvih.TabIndex = 7;
             this.pictureBoxvih.TabStop = false;
             // 
             // pictureBoxgono
             // 
-            this.pictureBoxgono.Location = new System.Drawing.Point(224, 148);
-            this.pictureBoxgono.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBoxgono.Location = new System.Drawing.Point(168, 120);
             this.pictureBoxgono.Name = "pictureBoxgono";
-            this.pictureBoxgono.Size = new System.Drawing.Size(143, 126);
+            this.pictureBoxgono.Size = new System.Drawing.Size(107, 102);
             this.pictureBoxgono.TabIndex = 8;
             this.pictureBoxgono.TabStop = false;
             // 
             // pictureBoxsifi
             // 
-            this.pictureBoxsifi.Location = new System.Drawing.Point(412, 148);
-            this.pictureBoxsifi.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBoxsifi.Location = new System.Drawing.Point(309, 120);
             this.pictureBoxsifi.Name = "pictureBoxsifi";
-            this.pictureBoxsifi.Size = new System.Drawing.Size(148, 126);
+            this.pictureBoxsifi.Size = new System.Drawing.Size(111, 102);
             this.pictureBoxsifi.TabIndex = 9;
             this.pictureBoxsifi.TabStop = false;
             // 
             // pictureBoxher
             // 
-            this.pictureBoxher.Location = new System.Drawing.Point(607, 148);
-            this.pictureBoxher.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBoxher.Location = new System.Drawing.Point(455, 120);
             this.pictureBoxher.Name = "pictureBoxher";
-            this.pictureBoxher.Size = new System.Drawing.Size(136, 126);
+            this.pictureBoxher.Size = new System.Drawing.Size(102, 102);
             this.pictureBoxher.TabIndex = 10;
             this.pictureBoxher.TabStop = false;
             // 
             // pictureBox5vph
             // 
-            this.pictureBox5vph.Location = new System.Drawing.Point(779, 148);
-            this.pictureBox5vph.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox5vph.Location = new System.Drawing.Point(584, 120);
             this.pictureBox5vph.Name = "pictureBox5vph";
-            this.pictureBox5vph.Size = new System.Drawing.Size(136, 126);
+            this.pictureBox5vph.Size = new System.Drawing.Size(102, 102);
             this.pictureBox5vph.TabIndex = 11;
             this.pictureBox5vph.TabStop = false;
             // 
             // Vermas1
             // 
-            this.Vermas1.Location = new System.Drawing.Point(44, 306);
-            this.Vermas1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Vermas1.Location = new System.Drawing.Point(33, 249);
             this.Vermas1.Name = "Vermas1";
-            this.Vermas1.Size = new System.Drawing.Size(136, 28);
+            this.Vermas1.Size = new System.Drawing.Size(102, 23);
             this.Vermas1.TabIndex = 12;
             this.Vermas1.Text = "Ver más";
             this.Vermas1.UseVisualStyleBackColor = true;
@@ -187,51 +174,50 @@
             // 
             // Vermas2
             // 
-            this.Vermas2.Location = new System.Drawing.Point(231, 306);
-            this.Vermas2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Vermas2.Location = new System.Drawing.Point(173, 249);
             this.Vermas2.Name = "Vermas2";
-            this.Vermas2.Size = new System.Drawing.Size(136, 28);
+            this.Vermas2.Size = new System.Drawing.Size(102, 23);
             this.Vermas2.TabIndex = 13;
             this.Vermas2.Text = "Ver más";
             this.Vermas2.UseVisualStyleBackColor = true;
+            this.Vermas2.Click += new System.EventHandler(this.Vermas2_Click);
             // 
             // Vermas3
             // 
-            this.Vermas3.Location = new System.Drawing.Point(424, 306);
-            this.Vermas3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Vermas3.Location = new System.Drawing.Point(318, 249);
             this.Vermas3.Name = "Vermas3";
-            this.Vermas3.Size = new System.Drawing.Size(136, 28);
+            this.Vermas3.Size = new System.Drawing.Size(102, 23);
             this.Vermas3.TabIndex = 14;
             this.Vermas3.Text = "Ver más";
             this.Vermas3.UseVisualStyleBackColor = true;
+            this.Vermas3.Click += new System.EventHandler(this.Vermas3_Click);
             // 
             // Vermas4
             // 
-            this.Vermas4.Location = new System.Drawing.Point(607, 306);
-            this.Vermas4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Vermas4.Location = new System.Drawing.Point(455, 249);
             this.Vermas4.Name = "Vermas4";
-            this.Vermas4.Size = new System.Drawing.Size(136, 28);
+            this.Vermas4.Size = new System.Drawing.Size(102, 23);
             this.Vermas4.TabIndex = 15;
             this.Vermas4.Text = "Ver más";
             this.Vermas4.UseVisualStyleBackColor = true;
+            this.Vermas4.Click += new System.EventHandler(this.Vermas4_Click);
             // 
             // Vermas5
             // 
-            this.Vermas5.Location = new System.Drawing.Point(779, 306);
-            this.Vermas5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Vermas5.Location = new System.Drawing.Point(584, 249);
             this.Vermas5.Name = "Vermas5";
-            this.Vermas5.Size = new System.Drawing.Size(136, 28);
+            this.Vermas5.Size = new System.Drawing.Size(102, 23);
             this.Vermas5.TabIndex = 16;
             this.Vermas5.Text = "Ver más";
             this.Vermas5.UseVisualStyleBackColor = true;
             // 
             // Formtratam
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::PROYECTO_INTEGRADOR.Properties.Resources.Diseño_sin_título;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(960, 431);
+            this.ClientSize = new System.Drawing.Size(720, 350);
             this.Controls.Add(this.Vermas5);
             this.Controls.Add(this.Vermas4);
             this.Controls.Add(this.Vermas3);
@@ -249,7 +235,6 @@
             this.Controls.Add(this.labelvih);
             this.Controls.Add(this.Regresointer2);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Formtratam";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Tratamientos";

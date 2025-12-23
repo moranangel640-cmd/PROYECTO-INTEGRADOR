@@ -1,6 +1,6 @@
 ﻿namespace PROYECTO_INTEGRADOR
 {
-    partial class Form11
+    partial class info5
     {
         /// <summary>
         /// Required designer variable.
@@ -28,9 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form11));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(info5));
             this.info5titulo = new System.Windows.Forms.Label();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.richVPH = new System.Windows.Forms.RichTextBox();
             this.SuspendLayout();
             // 
             // info5titulo
@@ -43,23 +43,23 @@
             this.info5titulo.TabIndex = 0;
             this.info5titulo.Text = "TRATAMIENTO PARA EL VPH";
             // 
-            // richTextBox1
+            // richVPH
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(114, 78);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(306, 96);
-            this.richTextBox1.TabIndex = 1;
-            this.richTextBox1.Text = resources.GetString("richTextBox1.Text");
+            this.richVPH.Location = new System.Drawing.Point(114, 78);
+            this.richVPH.Name = "richVPH";
+            this.richVPH.Size = new System.Drawing.Size(306, 96);
+            this.richVPH.TabIndex = 1;
+            this.richVPH.Text = resources.GetString("richVPH.Text");
             // 
-            // Form11
+            // info5
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(504, 250);
-            this.Controls.Add(this.richTextBox1);
+            this.Controls.Add(this.richVPH);
             this.Controls.Add(this.info5titulo);
-            this.Name = "Form11";
-            this.Text = "Form11";
+            this.Name = "info5";
+            this.Text = "VPH";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -68,6 +68,6 @@
         #endregion
 
         private System.Windows.Forms.Label info5titulo;
-        private System.Windows.Forms.RichTextBox richTextBox1;
+        private System.Windows.Forms.RichTextBox richVPH;
     }
 }

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace PROYECTO_INTEGRADOR
 {
-    public partial class Form11 : Form
+    public partial class info5 : Form
     {
-        public Form11()
+        public info5()
         {
             InitializeComponent();
         }

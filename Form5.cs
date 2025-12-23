@@ -29,5 +29,23 @@ namespace PROYECTO_INTEGRADOR
             info1 info1 = new info1();
             info1.Show();
         }
+
+        private void Vermas2_Click(object sender, EventArgs e)
+        {
+            info2 info2 = new info2();
+            info2.Show();
+        }
+
+        private void Vermas3_Click(object sender, EventArgs e)
+        {
+            info3 info3 = new info3();
+            info3.Show();
+        }
+
+        private void Vermas4_Click(object sender, EventArgs e)
+        {
+            info4 info4 = new info4();
+            info4.Show();
+        }
     }
 }
