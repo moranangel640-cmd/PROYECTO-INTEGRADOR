@@ -59,6 +59,7 @@
             this.Controls.Add(this.richVPH);
             this.Controls.Add(this.info5titulo);
             this.Name = "info5";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "VPH";
             this.ResumeLayout(false);
             this.PerformLayout();

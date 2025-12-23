@@ -47,5 +47,11 @@ namespace PROYECTO_INTEGRADOR
             info4 info4 = new info4();
             info4.Show();
         }
+
+        private void Vermas5_Click(object sender, EventArgs e)
+        {
+            info5 info5 = new info5();
+            info5.Show();
+        }
     }
 }

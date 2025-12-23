@@ -210,6 +210,7 @@
             this.Vermas5.TabIndex = 16;
             this.Vermas5.Text = "Ver más";
             this.Vermas5.UseVisualStyleBackColor = true;
+            this.Vermas5.Click += new System.EventHandler(this.Vermas5_Click);
             // 
             // Formtratam
             // 
