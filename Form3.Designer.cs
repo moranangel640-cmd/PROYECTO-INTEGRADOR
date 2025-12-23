@@ -44,12 +44,13 @@
             // 
             // back
             // 
+            this.back.BackColor = System.Drawing.Color.Red;
             this.back.Location = new System.Drawing.Point(12, 12);
             this.back.Name = "back";
             this.back.Size = new System.Drawing.Size(94, 67);
             this.back.TabIndex = 0;
             this.back.Text = "Regresar";
-            this.back.UseVisualStyleBackColor = true;
+            this.back.UseVisualStyleBackColor = false;
             this.back.Click += new System.EventHandler(this.back_Click);
             // 
             // Titulo1
