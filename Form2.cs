@@ -77,5 +77,10 @@ namespace PROYECTO_INTEGRADOR
             chepe7.Show();
             this.Hide();
         }
+
+        private void Imagenform2_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Hello");
+        }
     }
 }

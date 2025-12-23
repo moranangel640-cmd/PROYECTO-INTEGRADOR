@@ -19,7 +19,7 @@ namespace PROYECTO_INTEGRADOR.Properties {
     // a través de una herramienta como ResGen o Visual Studio.
     // Para agregar o quitar un miembro, edite el archivo .ResX y, a continuación, vuelva a ejecutar ResGen
     // con la opción /str o recompile su proyecto de VS.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "18.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     internal class Resources {
@@ -73,6 +73,16 @@ namespace PROYECTO_INTEGRADOR.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap ceftri {
+            get {
+                object obj = ResourceManager.GetObject("ceftri", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap costaB {
             get {
                 object obj = ResourceManager.GetObject("costaB", resourceCulture);
@@ -103,6 +113,36 @@ namespace PROYECTO_INTEGRADOR.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Diseño_sin_título__1_1 {
+            get {
+                object obj = ResourceManager.GetObject("Diseño sin título (1)1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Diseño_sin_título1 {
+            get {
+                object obj = ResourceManager.GetObject("Diseño sin título1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ets {
+            get {
+                object obj = ResourceManager.GetObject("ets", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap flechaBack2 {
             get {
                 object obj = ResourceManager.GetObject("flechaBack2", resourceCulture);
@@ -116,6 +156,46 @@ namespace PROYECTO_INTEGRADOR.Properties {
         internal static System.Drawing.Bitmap sierraB {
             get {
                 object obj = ResourceManager.GetObject("sierraB", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap tarv {
+            get {
+                object obj = ResourceManager.GetObject("tarv", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap WhatsApp_Image_2025_12_23_at_9_50_50_AM {
+            get {
+                object obj = ResourceManager.GetObject("WhatsApp Image 2025-12-23 at 9.50.50 AM", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap WhatsApp_Image_2025_12_23_at_9_50_50_AM__1_ {
+            get {
+                object obj = ResourceManager.GetObject("WhatsApp Image 2025-12-23 at 9.50.50 AM (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap WhatsApp_Image_2025_12_23_at_9_50_51_AM {
+            get {
+                object obj = ResourceManager.GetObject("WhatsApp Image 2025-12-23 at 9.50.51 AM", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

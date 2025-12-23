@@ -201,5 +201,29 @@
   <ItemGroup>
     <None Include="Resources\flechaBack2.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ets.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Diseño sin título1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Diseño sin título %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tarv.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ceftri.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2025-12-23 at 9.50.50 AM.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2025-12-23 at 9.50.50 AM %281%29.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2025-12-23 at 9.50.51 AM.jpeg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
