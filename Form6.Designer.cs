@@ -161,7 +161,7 @@
             this.Controls.Add(this.info1desc);
             this.Controls.Add(this.info1titulo);
             this.Name = "info1";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "VIH";
             this.panellena.ResumeLayout(false);
             this.panelcabo.ResumeLayout(false);
