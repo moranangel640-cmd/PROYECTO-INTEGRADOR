@@ -103,7 +103,7 @@
             this.infopanel.Controls.Add(this.Titulo2);
             this.infopanel.Location = new System.Drawing.Point(327, 222);
             this.infopanel.Name = "infopanel";
-            this.infopanel.Size = new System.Drawing.Size(470, 382);
+            this.infopanel.Size = new System.Drawing.Size(448, 382);
             this.infopanel.TabIndex = 3;
             // 
             // Informacionrichtext
@@ -112,7 +112,7 @@
             this.Informacionrichtext.Location = new System.Drawing.Point(3, 59);
             this.Informacionrichtext.Name = "Informacionrichtext";
             this.Informacionrichtext.ReadOnly = true;
-            this.Informacionrichtext.Size = new System.Drawing.Size(452, 322);
+            this.Informacionrichtext.Size = new System.Drawing.Size(432, 322);
             this.Informacionrichtext.TabIndex = 1;
             this.Informacionrichtext.Text = "";
             // 
@@ -120,7 +120,7 @@
             // 
             this.Titulo2.AutoSize = true;
             this.Titulo2.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Titulo2.Location = new System.Drawing.Point(131, 12);
+            this.Titulo2.Location = new System.Drawing.Point(119, 12);
             this.Titulo2.Name = "Titulo2";
             this.Titulo2.Size = new System.Drawing.Size(178, 38);
             this.Titulo2.TabIndex = 0;
