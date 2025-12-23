@@ -49,5 +49,12 @@ namespace PROYECTO_INTEGRADOR
         {
 
         }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            Form2 dos = new Form2();
+            dos.Show();
+            this.Close();
+        }
     }
 }

@@ -36,7 +36,9 @@ namespace PROYECTO_INTEGRADOR
 
         private void Interfaz3_Click(object sender, EventArgs e)
         {
-
+            Factores che = new Factores();
+            che.Show();
+            this.Hide();
         }
 
         private void Interfaz1_Click(object sender, EventArgs e)

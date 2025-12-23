@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -12,6 +13,7 @@ namespace PROYECTO_INTEGRADOR
 {
     public partial class Form7 : Form
     {
+        
         /*
         private Timer timer;
         private Control pane;
@@ -28,7 +30,7 @@ namespace PROYECTO_INTEGRADOR
         private void setupTimer()
         {
             timer = new Timer();
-            timer.Interval = 20; // 20ms para movimiento suave
+            timer.Interval = 20; 
             timer.Tick += Timer_Tick;
         }
         private void Timer_Tick(object sender, EventArgs e)
@@ -54,15 +56,15 @@ namespace PROYECTO_INTEGRADOR
         private void pBmouseEnter(object sender, EventArgs e)
         {
             PictureBox pb1 = (PictureBox)sender;
-            pb1.BorderStyle = BorderStyle.FixedSingle;
-            pb1.Size = new Size(pb1.Width + 4, pb1.Height + 4);
+           // pb1.BorderStyle = BorderStyle.Fixed3D;
+            pb1.Size = new Size(pb1.Width + 6, pb1.Height + 6);
             pb1.Location = new Point(pb1.Location.X - 2, pb1.Location.Y - 2);
         }
         private void pBmouseLeave(object sender, EventArgs e)
         {
             PictureBox pb1 = (PictureBox)sender;
-            pb1.BorderStyle = BorderStyle.None;
-            pb1.Size = new Size(pb1.Width - 4, pb1.Height - 4);
+           // pb1.BorderStyle = BorderStyle.None;
+            pb1.Size = new Size(pb1.Width - 6, pb1.Height - 6);
             pb1.Location = new Point(pb1.Location.X + 2, pb1.Location.Y + 2);
         }
 
@@ -106,7 +108,12 @@ namespace PROYECTO_INTEGRADOR
         {
             Form2 chape = new Form2();
             chape.Show();
-            this.Close();
+            this.Hide();
+        }
+
+        private void Form7_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
