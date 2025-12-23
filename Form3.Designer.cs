@@ -131,21 +131,23 @@
             // 
             this.sabiasq.AutoSize = true;
             this.sabiasq.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.sabiasq.Location = new System.Drawing.Point(860, 234);
+            this.sabiasq.Location = new System.Drawing.Point(836, 241);
             this.sabiasq.Name = "sabiasq";
-            this.sabiasq.Size = new System.Drawing.Size(128, 31);
+            this.sabiasq.Size = new System.Drawing.Size(148, 31);
             this.sabiasq.TabIndex = 4;
-            this.sabiasq.Text = "Sabias que";
+            this.sabiasq.Text = "¿Sabias que?";
             // 
             // infosabias
             // 
             this.infosabias.AutoSize = true;
-            this.infosabias.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.infosabias.Location = new System.Drawing.Point(828, 281);
+            this.infosabias.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.infosabias.Location = new System.Drawing.Point(781, 284);
             this.infosabias.Name = "infosabias";
-            this.infosabias.Size = new System.Drawing.Size(69, 28);
+            this.infosabias.Size = new System.Drawing.Size(249, 161);
             this.infosabias.TabIndex = 5;
-            this.infosabias.Text = "for rial";
+            this.infosabias.Text = "El condon protege SOLO \r\nPARCIALMENTE contra el VPH\r\nAunque reduce el riesgo del\r" +
+    "\npapiloma humano puede \r\ntransmitirse por contacto piel \r\ncon piel en areas NO c" +
+    "ubiertas \r\npor el preservativo.\r\n";
             // 
             // Form3
             // 

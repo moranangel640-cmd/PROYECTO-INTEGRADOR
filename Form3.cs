@@ -136,12 +136,21 @@ namespace PROYECTO_INTEGRADOR
                 case "🦠 VPH":
                     Titulo2.Text = "\U0001f9a0 HERPES";
                     Informacionrichtext.Text =
-                    "Descripcion: \n \n" +
-                    "Como dije es muy contagioso pq a si \n " +
-                    "por que a si lo quiso nuestro señor jesucristo \n" +
-                    "ademas de que es una enfermedad bacteriana \n" +
-                    "y puede causar graves daños al organismo" +
-                    "chepe";
+                    "Descripcion: \n " +
+                    "Virus DNA más común entre ITS. Más de 200 tipos, 40 afectan área genital. Clasificación \n" +
+                    "por riesgo oncogénico: alto riesgo (cáncer) y bajo riesgo (verrugas).\n \n" +
+                    "SINTOMAS: \n " +
+                    "Mayoría: Asintomático (5-40% mujeres en edad productiva) \n" +
+                    "Verrugas genitales: Lesiones exofíticas, papilomatosas, en vulva, pene, periné, ano \n" +
+                    "Subclínico: Detectado por citología (cambios coilocíticos) \n " +
+                    "Cáncer avanzado: Sangrado postcoital, dolor pélvico, secreción fétida \n \n " +
+                    "COMPLICACIONES \n " +
+                    "Cáncer cervicouterino: Principal por VPH-16 (50%) y VPH-18 (12%)\n" +
+                    "Otros cánceres: Anal, pene, vaginal, vulvar, orofaríngeo \n" +
+                    "Verrugas genitales recurrentes: VPH-6 y VPH-11 (90% casos) \n" +
+                    "Papilomatosis respiratoria juvenil: En niños por transmisión vertical \n" +
+                    "Neoplasia intraepitelial cervical (NIC): Lesiones premalignas \n " +
+                    "Impacto psicosocial: Ansiedad, estigma, afectación sexual";
                     break;
                 default:
                     break;
